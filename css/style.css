@@ -1,5 +1,5 @@
 :root {
-    --primary: #30626b;
+    --primary: #2e8595;
     --light-primary: #81b5c2;
 }
 * {
@@ -13,8 +13,8 @@ html , body {
 
 .wrapper
 {
-    border: ;
-    width: 900px;
+    border: 1px solid black;
+    width: 800px;
     margin: 0 auto;
     background: var(--light-primary);
     font-size: 18px;
