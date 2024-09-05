@@ -1,0 +1,45 @@
+:root {
+    --primary: #30626b;
+    --light-primary: #81b5c2;
+}
+* {
+    font-family: 'roboto',sans-serif;
+}
+html , body {
+    background: var(--primary);
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper
+{
+    border: ;
+    width: 900px;
+    margin: 0 auto;
+    background: var(--light-primary);
+    font-size: 18px;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+    padding: 10px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dt,dd {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.floating {
+    display: flex;
+}
